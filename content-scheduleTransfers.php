@@ -449,10 +449,9 @@ if (this.value == 1) {
 });
 
  /* Close modal window after choised date */
-
  $(".available").click(function () {
    $(".drop__show").addClass("hide__data");
-   console.log("Class was added");
+
      });
   });
 </script>
