@@ -475,3 +475,18 @@ body .daterangepicker {
   .value sub {
       display: none;
   }
+
+
+  /* Style for INTERNET EXPLORER */
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #takeDate > div {
+         top: 110px!important; 
+    }
+    .d-none-exlor {
+        display: none;
+    } 
+    .wrap__amount__donate__now input {
+        font-size: 40px;
+        padding-top: 0px;
+    }
+ } 

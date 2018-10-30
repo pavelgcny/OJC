@@ -44,7 +44,11 @@
       var formValue = $(this).val();
       $(this).prev().prev().prev().animateNumber({
         number: multiple * formValue
+      
       });
+      console.log("multiple: " + multiple);
+      console.log("formValue: " + formValue);
+      console.log("multiple * formValue: " + multiple * formValue);
     });
   });
 </script>

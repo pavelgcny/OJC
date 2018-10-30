@@ -156,7 +156,7 @@
                             <div class="calendar-table">
                               <table class="table-condensed">
                                 <tbody>
-                                  <tr class="p-mon">
+                                  <tr class="p-mon ">
                                     <td class="weekend off available" data-title="r0c0">26</td>
                                     <td class="off available" data-title="r0c1">27</td>
                                     <td class="off available" data-title="r0c2">28</td>
@@ -165,7 +165,7 @@
                                     <td class="available" data-title="r0c5">3</td>
                                     <td class="weekend available" data-title="r0c6">4</td>
                                   </tr>
-                                  <tr class="p-mon">
+                                  <tr class="p-mon ">
                                     <td class="weekend available" data-title="r1c0">5</td>
                                     <td class="available" data-title="r1c1">6</td>
                                     <td class="available" data-title="r1c2">7</td>
@@ -174,7 +174,7 @@
                                     <td class="available" data-title="r1c5">10</td>
                                     <td class="weekend available" data-title="r1c6">11</td>
                                   </tr>
-                                  <tr class="p-mon">
+                                  <tr class="p-mon ">
                                     <td class="weekend available" data-title="r2c0">12</td>
                                     <td class="available" data-title="r2c1">13</td>
                                     <td class="available" data-title="r2c2">14</td>
@@ -183,7 +183,7 @@
                                     <td class="available" data-title="r2c5">17</td>
                                     <td class="weekend available" data-title="r2c6">18</td>
                                   </tr>
-                                  <tr class="p-mon">
+                                  <tr class="p-mon ">
                                     <td class="weekend available" data-title="r3c0">19</td>
                                     <td class="available" data-title="r3c1">20</td>
                                     <td class="available" data-title="r3c2">21</td>
@@ -192,7 +192,7 @@
                                     <td class="available" data-title="r3c5">24</td>
                                     <td class="weekend available" data-title="r3c6">25</td>
                                   </tr>
-                                  <tr class="p-mon">
+                                  <tr class="p-mon ">
                                     <td class="weekend available" data-title="r4c0">26</td>
                                     <td class="available" data-title="r4c1">27</td>
                                     <td class="available" data-title="r4c2">28</td>
@@ -202,7 +202,7 @@
                                     <td class="weekend off available" data-title="r4c6">1</td>
                                   </tr>
                                   
-                                  <tr class="p-week d-none">
+                                  <tr class="p-week d-none ">
                                     <td class=" available" data-title="r5c0">sun</td>
                                     <td class="available" data-title="r5c1">mon</td>
                                     <td class="available" data-title="r5c2">tue</td>
@@ -453,4 +453,45 @@ if (this.value == 1) {
    $(".drop__show").addClass("hide__data");
      });
   });
+
+
+/* Code for Internet Explorer */
+/* Sample function that returns boolean in case the browser is Internet Explorer*/
+function isIE() {
+  ua = navigator.userAgent;
+  /* MSIE used to detect old browsers and Trident used to newer ones*/
+  var is_ie = ua.indexOf("MSIE ") > -1 || ua.indexOf("Trident/") > -1;
+  
+  return is_ie; 
+}
+/* Create an alert to show if the browser is IE or not */
+if (isIE()){
+  $("#takeDate").addClass("d-none-exlor");
+$(".p-mon").click(function(){
+  $("#takeDate").addClass("d-none-exlor");
+});
+$(".p-week").click(function(){
+  $("#takeDate").addClass("d-none-exlor");
+});
+/* Change Val Mon or Date */
+$( "#choise" ).change(function() {
+  var monthVal = $(".monthly__weekly__drop > .select-selected").text();
+  $("#takeDate").removeClass("d-none-exlor");
+if (this.value == 1) {
+ // $(".p-week").removeClass("d-none-exlor");
+ // $(".p-mon").addClass("d-none-exlor");
+ $("#takeDate > div").addClass("d-none-exlor");
+ 
+} else {
+ // $(".p-mon").removeClass("d-none-exlor");
+ // $(".p-week").addClass("d-none-exlor");
+
+  }
+});
+
+
+}else{
+    // alert('It is NOT InternetExplorer');
+}
+
 </script>
