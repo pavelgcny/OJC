@@ -1,36 +1,105 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <?php include 'header.php' ?>
-  </head>
-  <body class="menu-position-side menu-side-left full-screen">
-  <div class="all-wrapper menu-side with-pattern d-flex align-items-center" style="
-    min-height: 100vh;
-">
-      <div class="auth-box-w">
-        <div class="logo-w">
-          <a href="index.html"><img alt="" src="img/logo-big.png"></a>
-        </div>
-        <h4 class="auth-header">
-          Login Form
-        </h4>
-        <form action="">
-          <div class="form-group">
-            <label for="">Username</label><input class="form-control" placeholder="Enter your username" type="text">
-            <div class="pre-icon os-icon os-icon-user-male-circle"></div>
-          </div>
-          <div class="form-group">
-            <label for="">Password</label><input class="form-control" placeholder="Enter your password" type="password">
-            <div class="pre-icon os-icon os-icon-fingerprint"></div>
-          </div>
-          <div class="buttons-w">
-            <button class="btn btn-primary">Log me in</button>
-            <div class="form-check-inline">
-              <label class="form-check-label"><input class="form-check-input" type="checkbox">Remember Me</label>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </body>
+
+<head>
+	<?php include 'header.php' ?>
+</head>
+
+<body id="loginPage" class="menu-position-side menu-side-left full-screen">
+	<div class="all-wrapper menu-side with-pattern d-flex align-items-center" style="min-height: 100vh;">
+		<div class="auth-box-w text-center">
+			<div class="logo-w ">
+				<a href="index.html">
+					<xml version="1.0" encoding="utf-8">
+						<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+						 y="0px" viewBox="0 0 245.2 100" style="enable-background:new 0 0 245.2 100;width: 100px;height: 40.78px;"
+						 xml:space="preserve">
+							<style type="text/css">
+								.st0 {
+									fill: #659FD5;
+								}
+
+								.st1 {
+									fill: gray;
+								}
+
+								.st2 {
+									opacity: 0.9;
+									fill: url(#SVGID_1_);
+								}
+
+								.st3 {
+									opacity: 0.9;
+									fill: url(#SVGID_2_);
+								}
+							</style>
+							<g>
+								<path class="st0" d="M177.8,99.5c-28,0-48.8-21.6-48.8-48.9v-0.3C129,23.2,149.4,1,178.6,1c17.9,0,28.7,6,37.5,14.7l-13.3,15.4
+		c-7.3-6.7-14.8-10.7-24.3-10.7c-16,0-27.6,13.3-27.6,29.6v0.3c0,16.3,11.3,29.9,27.6,29.9c10.9,0,17.5-4.3,25-11.1l13.3,13.5
+		C207.1,93,196.2,99.5,177.8,99.5" />
+								<polygon class="st1" points="171.8,44.9 171.8,48.9 180.8,48.9 180.8,52.7 171.8,52.7 171.8,60 167.7,60 167.7,41.1 182,41.1 
+		182,44.9 	" />
+								<path class="st1" d="M193.2,60.3c-5.1,0-8.2-2.8-8.2-8.4V41.1h4.1v10.7c0,3.1,1.5,4.7,4.1,4.7c2.5,0,4.1-1.5,4.1-4.5V41.1h4.1v10.6
+		C201.4,57.5,198.2,60.3,193.2,60.3" />
+								<polygon class="st1" points="218.9,60 209.8,48 209.8,60 205.7,60 205.7,41.1 209.5,41.1 218.3,52.7 218.3,41.1 222.4,41.1 
+		222.4,60 	" />
+								<path class="st1" d="M234.3,60h-7.4V41.1h7.4c5.9,0,10,4.1,10,9.4v0.1C244.3,55.9,240.2,60,234.3,60 M240,50.6
+		c0-3.3-2.3-5.7-5.7-5.7h-3.2v11.4h3.2C237.7,56.2,240,54,240,50.6L240,50.6z" />
+								<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="129.0173" y1="50.2626" x2="216.8542" y2="50.2626">
+									<stop offset="3.225810e-02" style="stop-color:#3456A5" />
+									<stop offset="0.2097" style="stop-color:#3456A5;stop-opacity:0" />
+								</linearGradient>
+								<path class="st2" d="M177.8,99.5c-28,0-48.8-21.6-48.8-48.9v-0.3C129,23.2,149.4,1,178.6,1c17.9,0,28.7,6,37.5,14.7l-13.3,15.4
+		c-7.3-6.7-14.8-10.7-24.3-10.7c-16,0-27.6,13.3-27.6,29.6v0.3c0,16.3,11.3,29.9,27.6,29.9c10.9,0,17.5-4.3,25-11.1l13.3,13.5
+		C207.1,93,196.2,99.5,177.8,99.5" />
+								<path class="st0" d="M102.6,98.5C87.8,98.5,78,92,71.5,84.3l13.2-14.7c5.4,6,10.7,9.5,17.4,9.5c7.9,0,12.8-4.8,12.8-15.8V2h21.5
+		v62.3C136.4,87.4,122.8,98.5,102.6,98.5" />
+								<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="77.5761" y1="67.568" x2="131.1245" y2="87.058">
+									<stop offset="3.225810e-02" style="stop-color:#3456A5" />
+									<stop offset="0.5323" style="stop-color:#3456A5;stop-opacity:0" />
+								</linearGradient>
+								<path class="st3" d="M102.6,98.5C87.8,98.5,78,92,71.5,84.3l13.2-14.7c5.4,6,10.7,9.5,17.4,9.5c7.9,0,12.8-4.8,12.8-15.8l21.5,0.9
+		C136.4,87.4,122.8,98.5,102.6,98.5" />
+								<path class="st0" d="M51.4,99.5C22,99.5,0.9,77.6,0.9,50.5v-0.3C0.9,23.2,22.3,1,51.6,1C81,1,102.1,22.9,102.1,50v0.3
+		C102.1,77.3,80.7,99.5,51.4,99.5 M80.2,50.3c0-16.3-12-29.9-28.8-29.9c-16.9,0-28.6,13.3-28.6,29.6v0.3c0,16.3,12,29.9,28.8,29.9
+		c16.9,0,28.6-13.3,28.6-29.6V50.3z" />
+							</g>
+						</svg>
+				</a>
+			</div>
+			<h4 class="auth-header pl-0">
+				Login Form
+			</h4>
+			<form action="" class="">
+				<div class="form-group">
+					<label for="">Username</label><input class="form-control" placeholder="Enter your username" type="text">
+					<div class="pre-icon os-icon os-icon-user-male-circle"></div>
+				</div>
+				<div class="form-group">
+					<label for="">Password</label><input class="form-control" placeholder="Enter your password" type="password">
+					<div class="pre-icon os-icon os-icon-fingerprint"></div>
+				</div>
+				<div class="buttons-w">
+					<button class="btn btn-primary">Log me in</button>
+					<div class="form-check-inline">
+						<label class="form-check-label"><input class="form-check-input" type="checkbox">Remember Me</label>
+					</div>
+				</div>
+			</form>
+			<div class="sq_login_top_rell">
+				<div class="sq_login_top ">
+				</div>
+				<div class="sq_login_bott ">
+				</div>
+			</div>
+		</div> <!-- End -->
+		<script>			
+    jQuery(function ($) {
+			$(".sq_login_top").addClass("anim--sq_login_top");
+		});
+</script>
+	</div>
+</body>
+
 </html>
