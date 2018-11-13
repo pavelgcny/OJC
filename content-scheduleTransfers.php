@@ -441,10 +441,12 @@ $( "#choise" ).change(function() {
 if (this.value == 1) {
   $(".p-week").removeClass("d-none");
   $(".p-mon").addClass("d-none");
+  $("#sheduleOnDay input").val("Mon");
+  
 } else {
   $(".p-mon").removeClass("d-none");
   $(".p-week").addClass("d-none");
-
+  $("#sheduleOnDay input").val("1");
   }
 });
 

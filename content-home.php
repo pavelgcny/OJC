@@ -33,10 +33,7 @@
                             </div>
                             <div class="balance-value">
                               <span>$350</span>
-                              <span class="trending trending-down-basic">
-                                <span>%12</span>
-                                <i class="os-icon os-icon-arrow-2-down"></i>
-                              </span>
+                              
                             </div>
                             <div class="balance-link">
                               <a class="btn btn-link btn-underlined" href="#">
@@ -57,10 +54,7 @@
                             </div>
                             <div class="balance-value">
                               <span>$350</span>
-                              <span class="trending trending-down-basic">
-                                <span>%12</span>
-                                <i class="os-icon os-icon-arrow-2-down"></i>
-                              </span>
+                             
                             </div>
                             <div class="balance-link">
                               <a class="btn btn-link btn-underlined" href="#">

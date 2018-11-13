@@ -157,6 +157,7 @@
             <table class="table table-lightborder">
               <thead>
                 <tr role="row">
+                <th style="width: 87px;" class="left sorting_desc" tabindex="0" aria-controls="sttmtTable" rowspan="1" colspan="1" aria-label="Trans Date: activate to sort column ascending" aria-sort="descending">Denomination</th>
                   <th style="width: 87px;" class="left sorting_desc" tabindex="0" aria-controls="sttmtTable" rowspan="1" colspan="1" aria-label="Trans Date: activate to sort column ascending" aria-sort="descending">Trans Date</th>
                   <th style="width: 51px;" class="left sorting" tabindex="0" aria-controls="sttmtTable" rowspan="1" colspan="1" aria-label="Cert#: activate to sort column ascending">Cert#</th>
                   <th style="width: 58px;" class="sorting" tabindex="0" aria-controls="sttmtTable" rowspan="1" colspan="1" aria-label="Receipt: activate to sort column ascending">Receipt</th>
@@ -164,7 +165,8 @@
               </thead>
               <tbody>
                 <tr role="row" class="odd">
-                  <td class="left sorting_1">11/08/2017</td>
+                  <td class="left sorting_1">Description</td>
+                  <td class="left">11/08/2017</td>
                   <td class=" right">0.00</td>
                   <td class=" right">100.00</td>
                 </tr>
