@@ -35,20 +35,19 @@
     $(".el-tablo .value").each(function (index) {
       $(this).after("<sub class='d-none'>" + $(this).text() + "</sub>");
     });
-    /* Get value from static value in div */
-    $(".el-tablo .form-control").click(function () {
-      multiple = $(this).prev().prev().prev().text();
-    });
-
-    $(".el-tablo .form-control").change(function () {
+    /* New version */
+    $(".el-tablo input").change(function(){
       var formValue = $(this).val();
-      $(this).prev().prev().prev().animateNumber({
-        number: multiple * formValue
-      
+      var origValue = $(this).parent().attr("value");
+      if (formValue >= 1) {
+        $(this).prev().prev().prev().animateNumber({
+        number: formValue * origValue
       });
-      console.log("multiple: " + multiple);
-      console.log("formValue: " + formValue);
-      console.log("multiple * formValue: " + multiple * formValue);
+      } else {
+        $(this).prev().prev().prev().animateNumber({
+          number: origValue
+      });
+      }
     });
   });
 </script>

@@ -17,7 +17,7 @@
         <div class="tablos">
           <div class="row mb-xl-2 mb-xxl-3">
             <div class="col-md-2 col-lg-2">
-              <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo">
+              <a value="5" class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo value-for-multiple">
                 
                 <div class="value"> 5</div>
                 
@@ -29,7 +29,7 @@
               </a>
             </div>
             <div class="col-md-2 col-lg-2">
-              <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo">
+              <a value="10" class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo value-for-multiple">
                 <div class="value"> 10</div>
                 <!--<div class="value value__extra__effect">x<span class="value__extra__effect__count">5</span></div>-->
                 <hr>
@@ -39,7 +39,7 @@
               </a>
             </div>
             <div class="col-md-2 col-lg-2">
-              <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo">
+              <a value="18" class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo value-for-multiple">
                 <div class="value"> 18</div>
                 <!--<div class="value value__extra__effect">x<span class="value__extra__effect__count">5</span></div>-->
                 <hr>
@@ -49,7 +49,7 @@
               </a>
             </div>
             <div class="col-md-2 col-lg-2">
-              <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo">
+              <a value="20" class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo value-for-multiple">
                 <div class="value"> 20</div>
                 <!--<div class="value value__extra__effect">x<span class="value__extra__effect__count">5</span></div>-->
                 <hr>
@@ -59,7 +59,7 @@
               </a>
             </div>
             <div class="col-md-2 col-lg-2">
-              <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo">
+              <a value="26" class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo value-for-multiple">
                 <div class="value"> 26</div>
                 <!--<div class="value value__extra__effect">x<span class="value__extra__effect__count">5</span></div>-->
                 <hr>
@@ -69,7 +69,7 @@
               </a>
             </div>
             <div class="col-md-2 col-lg-2">
-              <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo">
+              <a value="36" class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo value-for-multiple">
                 <div class="value"> 36</div>
                 <!--<div class="value value__extra__effect">x<span class="value__extra__effect__count">5</span></div>-->
                 <hr>
@@ -87,7 +87,7 @@
         <div class="tablos">
           <div class="row mb-xl-2 mb-xxl-3">
             <div class="col-md-2 col-lg-2">
-              <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo">
+              <a value="50" class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo value-for-multiple">
                 <div class="value"> 50</div>
                 <!--<div class="value value__extra__effect">x<span class="value__extra__effect__count">5</span></div>-->
                 <hr>
@@ -97,7 +97,7 @@
               </a>
             </div>
             <div class="col-md-2 col-lg-2">
-              <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo">
+              <a value="72" class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo value-for-multiple">
                 <div class="value"> 72</div>
                 <!--<div class="value value__extra__effect">x<span class="value__extra__effect__count">5</span></div>-->
                 <hr>
@@ -107,7 +107,7 @@
               </a>
             </div>
             <div class="col-md-2 col-lg-2">
-              <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo">
+              <a value="100" class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo value-for-multiple">
                 <div class="value"> 100</div>
                 <!--<div class="value value__extra__effect">x<span class="value__extra__effect__count">5</span></div>-->
                 <hr>
@@ -117,7 +117,7 @@
               </a>
             </div>
             <div class="col-md-2 col-lg-2">
-              <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo">
+              <a value="180" class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo value-for-multiple">
                 <div class="value"> 180</div>
                 <!--<div class="value value__extra__effect">x<span class="value__extra__effect__count">5</span></div>-->
                 <hr>
@@ -127,7 +127,7 @@
               </a>
             </div>
             <div class="col-md-2 col-lg-2">
-              <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo">
+              <a class="element-box el-tablo centered trend-in-corner padded bold-label">
                 <div style="font-size: 20px;     min-height: 2.9rem;" class="value"> Blank Books:</div>
                 <!--<div class="value value__extra__effect">x<span class="value__extra__effect__count">5</span></div>-->
                 <hr>
@@ -148,7 +148,7 @@
           <div class="tablos">
             <div class="row mb-xl-2 mb-xxl-3">
               <div class="col-md-2 col-lg-2">
-                <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo">
+                <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo value-for-multiple">
                   <div class="value small__value"> Amount $:</div>
                   <input class="form-control" placeholder="0" type="number" min="0">
                   <!--<div class="value value__extra__effect">x<span class="value__extra__effect__count">5</span></div>-->
@@ -158,7 +158,7 @@
                 </a>
               </div>
               <div class="col-md-2 col-lg-2">
-                <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo">
+                <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo value-for-multiple">
                   <div class="value small__value"> Amount $:</div>
                   <input class="form-control" placeholder="0" type="number" min="0">
                   <!--<div class="value value__extra__effect">x<span class="value__extra__effect__count">5</span></div>-->
@@ -168,7 +168,7 @@
                 </a>
               </div>
               <div class="col-md-2 col-lg-2">
-                <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo">
+                <a class="element-box el-tablo centered trend-in-corner padded bold-label wrap__anim__tablo value-for-multiple">
                   <div class="value small__value"> Amount $:</div>
                   <input class="form-control" placeholder="0" type="number" min="0">
                   <!--<div class="value value__extra__effect">x<span class="value__extra__effect__count">5</span></div>-->
